@@ -1,4 +1,4 @@
-name: flutter_markdown
+name: flutter_markdown_demo_app
 description: A new Flutter project.
 
 # The following line prevents the package from being accidentally published to
@@ -29,6 +29,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_markdown: ^0.6.9
 
 
   # The following adds the Cupertino Icons font to your application.

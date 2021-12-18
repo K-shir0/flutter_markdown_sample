@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_markdown/screens/my_home_page.dart';
+import 'package:flutter_markdown_demo_app/screens/my_home_page.dart';
 
 class App extends StatelessWidget {
   const App({Key? key}) : super(key: key);
