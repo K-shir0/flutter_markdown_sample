@@ -19,7 +19,7 @@ class MarkdownScreen extends StatelessWidget {
           'pre': CustomPreBuilder(),
           'blockquote': CustomBlockQuoteBuilder(),
         },
-        imageBuilder: (uri, _, __) {
+        imageBuilder: (uri, title, alt) {
           return Center(
             child: Image.network(
               uri.toString(),
